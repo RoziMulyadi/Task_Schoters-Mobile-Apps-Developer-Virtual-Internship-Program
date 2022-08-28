@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:id="@+id/main_navigation_graph"
+   app:startDestination="@id/homeFragment">
+
+   <fragment
+      android:id="@+id/homeFragment"
+      android:name="id.rllyhz.schotersnewsapp.ui.features.home.HomeFragment"
+      android:label="@string/toolbar_title_home" />
+   <fragment
+      android:id="@+id/searchFragment"
+      android:name="id.rllyhz.schotersnewsapp.ui.features.search.SearchFragment"
+      android:label="@string/toolbar_title_search" />
+   <fragment
+      android:id="@+id/favoritesFragment"
+      android:name="id.rllyhz.schotersnewsapp.ui.features.favorites.FavoritesFragment"
+      android:label="@string/toolbar_title_profile" />
+</navigation>
